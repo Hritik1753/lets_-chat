@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>real-time chat aplication</title>
+    
+     <!-- <script src="http://localhost:3000/socket.io/socket.io.js"></script> -->
+    <!-- <script src="client.js"></script> -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+<script>
+  const pickerOptions = { onEmojiSelect: console.log }
+  const picker = new EmojiMart.Picker(pickerOptions)
+
+  document.body.appendChild(picker)
+</script>
+</head>
+<body>
+    <nav>
+        <img  class="logo"  src="vector-set-of-different-family-logos-vector-eps.jpg" height="80px" width="120px" alt="">
+        <!-- <img  class="logo"  src="" height="80px" width="80px" alt=""> -->
+        <h1>welcome to idiscuss chat app</h1>
+    </nav>
+
+    <div class="container" >
+            <!-- <ul id="messages"></ul> -->
+            <!-- <img src="pngtree-emoji-of-social-media-or-chat-application-network-emoticon-background-image_985694.jpg" alt="" height="400px" width="800px"> -->
+            <div class="message left">hritik:how r u</div>
+            <div class="message right">rohan:all right</div>
+
+    </div>
+
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">send</button>
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+   
+</body>
+</html>
