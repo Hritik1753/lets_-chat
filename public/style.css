@@ -1,7 +1,9 @@
 body{
     text-align: center;
     /* background-image: url("High_resolution_wallpaper_background_ID_77700294077.jpg"); */
-    background-image: url("25nOUq.jpg");
+    /* background-image: url("25nOUq.jpg"); */
+
+    background-color: antiquewhite;
     background-repeat: no-repeat;
   background-size: 1500px 750px;
 
@@ -11,8 +13,8 @@ body{
 }
 
 .container{
-    width: 800px;
-    height: 400px;
+    width: 1452px;
+    height: 450px;
     padding: 33px;
     border: 3px solid black;
     border-radius: 9px;
@@ -24,6 +26,7 @@ body{
     background-size: 900px 500px;
     margin: auto;
     overflow-y: scroll;
+    background-color: cadetblue;
 
 }
 .message{
@@ -39,35 +42,46 @@ border-radius: 10px;
     background-color: #3399FF;
 float: left;
 clear: both;
+border-radius: 60px;
 }
 .right{
 
-background-color: #00994C;
+background-color: white;
 float: right;
 clear: both;
+border-radius: 60px;
 }
 
+.send{
+    /* position: relative; */
+    /* top: 500px; */
+    width: 1520px;
+    height: 50px;
+    background-color: #3399FF;
+    border-bottom-left-radius: 20px;
+    /* display: flex; */
+    flex-direction: row;
+    margin: auto;
+}
+
+
 #send-container{
-    display: block;
+    /* display: block;
     margin:auto;
     text-align: center;
-    max-width: 880px;
+    max-width: 880px; */
 
 }
 
 #messageInp{
-    width: 92%;
-    border: 2px solid black;
- border-radius: 6px; 
- height: 34px;
+
 
 }
 
+
 .btn{
     cursor: pointer;
-    border: 2px solid black;
-    border-radius: 6px;
-    height: 34px;
+    
 }
 @media screen and (max-width: 100px){
     .container {
